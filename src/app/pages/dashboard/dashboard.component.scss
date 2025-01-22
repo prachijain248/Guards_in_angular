@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+}
+#sidebar {
+    min-height: calc(100vh - 72px);
+    background: linear-gradient(to right, #3a6073, #16222a);
+    padding: 20px;
+}
+#content {
+    flex-grow: 1;
+    padding: 20px;
+}
+#sidebar {
+  margin-top: 55px;
+}
+#content {
+  margin-top: 100px;
+}

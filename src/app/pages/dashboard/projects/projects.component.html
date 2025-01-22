@@ -1,0 +1,11 @@
+<p>projects works!</p>
+<ul>
+    @for (item of projects; track item.id) {
+      <li>
+        <span>{{ item.name }}</span>
+        <button [routerLink]="['/dashboard/projects', item.id, 'edit']">Edit Product</button>
+    </li>
+    } @empty {
+      <span>Empty list of projects</span>
+    }
+</ul>

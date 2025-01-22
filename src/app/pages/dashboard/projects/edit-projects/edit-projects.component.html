@@ -1,0 +1,10 @@
+<p>edit-projects works!</p>
+<div class="edit-project">
+    <div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" placeholder="Edit Project Details" id="projectData" [(ngModel)]="projectData">
+          <label for="projectData">Project Details</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit" (click)="onSave()">Save Project</button>
+    </div>
+</div>
